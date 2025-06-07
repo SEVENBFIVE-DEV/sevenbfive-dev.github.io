@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SBF Indie Development Team — инди-игры и цифровые проекты с душой.">
+  <title>SBF Indie Development Team</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    header {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      width: 100%;
+      max-width: 800px;
+    }
+    .card {
+      background: #222;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+      text-align: center;
+    }
+    .card h3 {
+      margin: 0.5rem 0;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>SBF Indie Development Team</header>
+
+  <section class="projects">
+    <div class="card">
+      <h3>Project Name</h3>
+      <p>Краткое описание проекта</p>
+    </div>
+    <div class="card">
+      <h3>Project Name</h3>
+      <p>Краткое описание другого проекта</p>
+    </div>
+  </section>
+
+  <footer>© 2025 SBF Indie Development Team. Все права защищены.</footer>
+</body>
+</html>
